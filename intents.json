@@ -1,0 +1,304 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi", "hello", "hey", "good morning", "good evening",
+        "hii", "heyy", "hello there"
+      ],
+      "responses": [
+        "Hello! Welcome to BIST chatbot. How can I help you today?",
+        "Hi there! Feel free to ask anything about the college."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "exit"],
+      "responses": [
+        "Goodbye! Feel free to ask anytime.",
+        "See you later! Have a great day."
+      ]
+    },
+
+    {
+      "tag": "bot_name",
+      "patterns": [
+        "what is your name",
+        "who are you",
+        "are you a chatbot"
+      ],
+      "responses": [
+        "I am a chatbot designed to help you with information about Bansal Institute of Science and Technology."
+      ]
+    },
+
+    {
+      "tag": "about",
+      "patterns": [
+        "tell me about the college",
+        "college information",
+        "about bist",
+        "introduction of college",
+        "give details about college",
+        "what is bist"
+      ],
+      "responses": [
+        "Bansal Institute of Science and Technology (BIST), Bhopal is a well-known engineering college established in 2000. It focuses on quality education, practical learning, and skill development."
+      ]
+    },
+
+    {
+      "tag": "location",
+      "patterns": [
+        "where is the college located",
+        "college location",
+        "where is bist",
+        "college address"
+      ],
+      "responses": [
+        "The college is located in Bhopal, Madhya Pradesh."
+      ]
+    },
+
+    {
+      "tag": "address",
+      "patterns": [
+        "full address",
+        "location details",
+        "complete address"
+      ],
+      "responses": [
+        "The college is located at Kokta, Anand Nagar, Raisen Road, Bhopal, Madhya Pradesh, India - 462021."
+      ]
+    },
+
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact number",
+        "phone number",
+        "how to contact college"
+      ],
+      "responses": [
+        "You can contact the college at 0123456789."
+      ]
+    },
+
+    {
+      "tag": "affiliation",
+      "patterns": [
+        "which university is it affiliated to",
+        "affiliation",
+        "is it rgpv affiliated"
+      ],
+      "responses": [
+        "The college is affiliated with Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), Bhopal."
+      ]
+    },
+
+    {
+      "tag": "approval",
+      "patterns": [
+        "is the college approved",
+        "naac accreditation",
+        "is it naac accredited"
+      ],
+      "responses": [
+        "Yes, the college is NAAC accredited."
+      ]
+    },
+
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "eligibility criteria",
+        "who can apply",
+        "minimum marks required"
+      ],
+      "responses": [
+        "Candidates must have passed 10+2 with Physics, Chemistry, and Mathematics with at least 45% marks, or 40% for reserved categories."
+      ]
+    },
+
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "how to take admission",
+        "admission process",
+        "how can I apply for admission",
+        "admission procedure",
+        "steps for admission",
+        "how do i get admission"
+      ],
+      "responses": [
+        "You can apply for admission through the official website of BIST or by visiting the college campus and filling out the application form."
+      ]
+    },
+
+    {
+      "tag": "documents",
+      "patterns": [
+        "documents required",
+        "documents for admission",
+        "what documents are needed"
+      ],
+      "responses": [
+        "Required documents include 10th and 12th marksheets, transfer or migration certificate, caste certificate if applicable, income certificate if applicable, and passport size photographs."
+      ]
+    },
+
+    {
+      "tag": "courses",
+      "patterns": [
+        "courses offered",
+        "what courses are available",
+        "programs available"
+      ],
+      "responses": [
+        "The college offers B.Tech programs in CSE, AI-ML, Data Science, IT, ECE, Electrical, Mechanical, and Civil Engineering. It also offers MBA, MCA, and M.Tech programs."
+      ]
+    },
+
+    {
+      "tag": "branches",
+      "patterns": [
+        "branches available",
+        "engineering branches",
+        "departments"
+      ],
+      "responses": [
+        "Available branches include Computer Science, AI-ML, Information Technology, Electronics, Electrical, Mechanical, and Civil Engineering."
+      ]
+    },
+
+    {
+      "tag": "fees",
+      "patterns": [
+        "fee structure",
+        "college fees",
+        "tuition fee",
+        "how much is the fee",
+        "what is the total fees",
+        "fees for btech"
+      ],
+      "responses": [
+        "The total B.Tech fees range between ₹2.08 to ₹3.88 lakhs depending on the branch, while MBA and M.Tech fees are around ₹60,000."
+      ]
+    },
+
+    {
+      "tag": "placement",
+      "patterns": [
+        "placement",
+        "companies visiting",
+        "recruiters",
+        "placement record",
+        "does college provide placement",
+        "job opportunities"
+      ],
+      "responses": [
+        "Yes, the college provides placement support. Top companies like TCS, Infosys, Wipro, Cognizant, HCL, and Capgemini visit for recruitment."
+      ]
+    },
+
+    {
+      "tag": "average_package",
+      "patterns": [
+        "average package",
+        "salary package",
+        "placement salary"
+      ],
+      "responses": [
+        "The average salary package offered ranges between 4.5 LPA to 5 LPA."
+      ]
+    },
+
+    {
+      "tag": "facilities",
+      "patterns": [
+        "facilities available",
+        "college facilities",
+        "infrastructure"
+      ],
+      "responses": [
+        "The college provides facilities such as a library, well-equipped labs, Wi-Fi, and a canteen."
+      ]
+    },
+
+    {
+      "tag": "library",
+      "patterns": [
+        "is there a library",
+        "library facility"
+      ],
+      "responses": [
+        "Yes, the college has a well-equipped library for students."
+      ]
+    },
+
+    {
+      "tag": "labs",
+      "patterns": [
+        "lab facility",
+        "are labs available"
+      ],
+      "responses": [
+        "Yes, the college provides well-equipped laboratory facilities."
+      ]
+    },
+
+    {
+      "tag": "wifi",
+      "patterns": [
+        "wifi available",
+        "internet facility"
+      ],
+      "responses": [
+        "Yes, Wi-Fi facility is available across the campus."
+      ]
+    },
+
+    {
+      "tag": "canteen",
+      "patterns": [
+        "canteen available",
+        "food facility"
+      ],
+      "responses": [
+        "Yes, the college has a canteen facility for students."
+      ]
+    },
+
+    {
+      "tag": "timings",
+      "patterns": [
+        "college timings",
+        "working hours",
+        "when does college open",
+        "college time"
+      ],
+      "responses": [
+        "The college usually operates from 9:00 AM to 5:00 PM on working days."
+      ]
+    },
+
+    {
+      "tag": "fallback",
+      "patterns": [
+        "unknown",
+        "not sure",
+        "random question"
+      ],
+      "responses": [
+        "Sorry, I didn’t understand your question. Please try asking in a different way.",
+        "I’m not sure about that. Can you rephrase your question?"
+      ]
+    }
+
+  ]
+}
+
+
+
